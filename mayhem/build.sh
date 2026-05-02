@@ -16,6 +16,7 @@
 ################################################################################
 
 # Build project
+cd $SRC/c-blosc2
 export LDSHARED=lld
 
 cmake . -DCMAKE_C_FLAGS="$CFLAGS" -DCMAKE_CXX_FLAGS="$CXXFLAGS" -DBUILD_FUZZERS=ON
