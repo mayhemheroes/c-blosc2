@@ -1,0 +1,4 @@
+project: PROJECT
+target: decompress_chunk_fuzzer
+cmds:
+- cmd: /out/decompress_chunk_fuzzer

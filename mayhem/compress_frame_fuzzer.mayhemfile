@@ -1,0 +1,4 @@
+project: PROJECT
+target: compress_frame_fuzzer
+cmds:
+- cmd: /out/compress_frame_fuzzer

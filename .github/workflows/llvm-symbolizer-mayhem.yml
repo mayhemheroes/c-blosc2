@@ -49,4 +49,4 @@ jobs:
       with:
         mayhem-token: ${{ secrets.MAYHEM_TOKEN }}
         args: --image ${{ steps.meta.outputs.tags }} --duration 300 --cmd /out/llvm-symbolizer
-          --target llvm-symbolizer
+          --target llvm-symbolizer --file mayhem/llvm-symbolizer.mayhemfile

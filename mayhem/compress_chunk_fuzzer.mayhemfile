@@ -1,0 +1,4 @@
+project: PROJECT
+target: compress_chunk_fuzzer
+cmds:
+- cmd: /out/compress_chunk_fuzzer

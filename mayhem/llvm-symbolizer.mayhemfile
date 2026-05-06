@@ -1,0 +1,4 @@
+project: PROJECT
+target: llvm-symbolizer
+cmds:
+- cmd: /out/llvm-symbolizer

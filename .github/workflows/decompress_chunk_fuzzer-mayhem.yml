@@ -49,4 +49,4 @@ jobs:
       with:
         mayhem-token: ${{ secrets.MAYHEM_TOKEN }}
         args: --image ${{ steps.meta.outputs.tags }} --duration 300 --cmd /out/decompress_chunk_fuzzer
-          --target decompress_chunk_fuzzer
+          --target decompress_chunk_fuzzer --file mayhem/decompress_chunk_fuzzer.mayhemfile
